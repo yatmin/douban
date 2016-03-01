@@ -1,0 +1,75 @@
+@charset "UTF-8";
+ /*搜索页面样式*/
+dl {
+	border-bottom: 1px dotted #000;
+}
+dt {
+	font-weight: bold;
+}
+
+#div2{
+	text-align: center;
+}
+ 
+.trr {
+	text-align: right;
+}
+.search-list li{
+    overflow: hidden;
+	border-top: 1px dashed #ddd;
+	padding: 20px 0 10px;
+    }
+.search-list li .pic{
+    float: left;
+    margin-right: 20px;
+}
+.search-list .info{
+	overflow: hidden;
+	color: #666;
+}
+.search-list .info .pub{
+	margin: 6px 0 8px;
+}
+.search-list .info h2{
+	font-size: 14px;
+    margin-bottom: 6px;
+}
+.search-list li a{
+    color: #37a;
+}
+#setpage{
+	float: left;
+	width: 590px;
+	padding-right: 40px;
+ }
+
+#setpage{
+	width: 590px; 
+	height: 21px; 
+	position: relative; 
+	margin:40px auto;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:150%;}
+#setpage .prev{
+	margin-right: 20px;
+}
+#setpage .next{
+	margin-left: 20px;
+}
+#setpage a{
+	text-decoration: none;
+	padding: 0 4px; 
+	margin:2px;
+	text-align: center; }
+#setpage a:hover{
+	height: 16px;
+	line-height: 16px;
+	background-color: #3377aa;
+	color: #fff;}
+.current{
+	padding: 0 4px; 
+	margin:2px;color: #fff;
+	background: #83BF73;
+	cursor: text;
+}
