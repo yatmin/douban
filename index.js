@@ -94,7 +94,7 @@ function fn1(data){
 		            outstr = outstr + "<a href='javascript:void(0)' onclick='gotopage("+count+")'>后10页</a>"; 
 		        }
 		    }    
-		    document.getElementById("div2").innerHTML = "<div id='setpage'><span id='info'>共"+totalpage+"页|第"+cpage+"页<\/span>" + outstr + "<\/div>"; 
+		    document.getElementById("div2").innerHTML = "<div id='setpage'><span id='info'>"+cpage+"/"+totalpage+"<\/span>" + outstr + "<\/div>"; 
 		    outstr = ""; 
 		 
 		} 
